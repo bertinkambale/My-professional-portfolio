@@ -12,7 +12,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-  
+
 h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -27,7 +27,7 @@ h4 {
   order: 0;
   flex-grow: 0;
 }
-  
+
 h2 {
   width: 327px;
   height: 150px;
@@ -43,7 +43,7 @@ h2 {
   order: 0;
   flex-grow: 0;
 }
-  
+
 h3 {
   width: 117px;
   height: 24px;
@@ -58,7 +58,7 @@ h3 {
   flex-grow: 0;
   padding-bottom: 20px;
 }
-  
+
 p {
   width: 327px;
   height: 146px;
@@ -72,7 +72,7 @@ p {
   order: 1;
   flex-grow: 0;
 }
-  
+
 i {
   padding-right: 10px;
 }

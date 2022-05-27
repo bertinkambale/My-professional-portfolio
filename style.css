@@ -13,8 +13,8 @@ body {
   align-items: center;
 }
 
-h4 {
-  font-family: 'Poppins', sans-serif;
+a {
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -31,7 +31,7 @@ h4 {
 h1 {
   width: 327px;
   height: 150px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -47,6 +47,7 @@ h1 {
 h3 {
   width: 117px;
   height: 24px;
+  font-family: "Poppins", sans-serif;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -62,7 +63,7 @@ h3 {
 p {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -73,11 +74,12 @@ p {
   flex-grow: 0;
 }
 
-i {
-  padding-right: 10px;
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: -40px;
 }
 
-a {
-  text-decoration: none;
-  color: #7f8cff;
+li {
+  padding-right: 10px;
 }

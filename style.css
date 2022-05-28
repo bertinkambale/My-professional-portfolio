@@ -1,4 +1,10 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
 body {
+  background: #e5e5e5;
   margin: auto;
   width: 80%;
   background-image: url(/images/header-shapes-mobile.png);
@@ -29,8 +35,6 @@ body {
 }
 
 .my-first-section h1 {
-  width: 327px;
-  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -45,8 +49,6 @@ body {
 }
 
 .my-first-section h3 {
-  width: 117px;
-  height: 24px;
   font-family: "Poppins", sans-serif;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -61,8 +63,6 @@ body {
 }
 
 .my-first-section p {
-  width: 327px;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -84,10 +84,47 @@ body {
   padding-right: 10px;
 }
 
+.my-second-section {
+  display: grid;
+  margin-top: 88px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid#DFE1E6;
+}
+
+.my-third-section {
+  display: grid;
+  margin-top: 88px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid#DFE1E6;
+}
+
+.my-fourth-section {
+  display: grid;
+  margin-top: 88px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid#DFE1E6;
+}
+
+.my-fith-section {
+  display: grid;
+  margin-top: 88px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+}
+
 .my-second-section h1 {
-  width: 327px;
-  margin-top: -30px;
-  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -102,8 +139,6 @@ body {
 }
 
 .my-second-section p {
-  width: 327px;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -113,64 +148,6 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.for-displaying {
-  margin-top: -70px;
-  display: flex;
-  align-items: center;
-}
-
-.for-displaying h2 {
-  width: 55px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-  color: #344563;
-  order: 0;
-  flex-grow: 0;
-}
-
-.for-displaying h3 {
-  width: 88px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.for-displaying img {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.ancrotag {
-  margin-top: -20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.ancrotag a {
-  font-family: "Poppins", sans-serif;
-  color: #6070ff;
-  background-color: #ebebff;
-  text-decoration: none;
-  margin-top: -30px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
 }
 
 .see-project button {
@@ -190,10 +167,13 @@ body {
   margin-bottom: 20px;
 }
 
-.my-third-section h1 {
-  width: 327px;
-  margin-top: -30px;
-  height: 150px;
+.new-style {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.new-style h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -207,15 +187,7 @@ body {
   flex-grow: 0;
 }
 
-.thirdcounter {
-  margin-top: -50px;
-  display: flex;
-  align-items: center;
-}
-
-.thirdcounter h2 {
-  width: 55px;
-  height: 16px;
+.new-style h2 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -226,9 +198,7 @@ body {
   flex-grow: 0;
 }
 
-.thirdcounter h3 {
-  width: 88px;
-  height: 16px;
+.new-style h3 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -240,29 +210,9 @@ body {
   flex-grow: 0;
 }
 
-.thirdcounter img {
+.new-style img {
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.ancrotag1 {
-  margin-top: -20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.ancrotag1 a {
-  font-family: "Poppins", sans-serif;
-  color: #6070ff;
-  background-color: #ebebff;
-  text-decoration: none;
-  margin-top: -30px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
 }
 
 .see-project1 button {
@@ -282,9 +232,21 @@ body {
   margin-bottom: 20px;
 }
 
+.my-third-section h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .my-third-section p {
-  width: 327px;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -297,9 +259,6 @@ body {
 }
 
 .my-fourth-section h1 {
-  width: 327px;
-  margin-top: -30px;
-  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -314,8 +273,6 @@ body {
 }
 
 .my-fourth-section p {
-  width: 327px;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -325,50 +282,6 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.Part3 {
-  margin-top: -70px;
-  display: flex;
-  align-items: center;
-}
-
-.Part3 h2 {
-  width: 55px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-  color: #344563;
-  order: 0;
-  flex-grow: 0;
-}
-
-.Part3 h3 {
-  width: 88px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.Part3 img {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.ancrotag3 {
-  margin-top: -20px;
-  display: flex;
-  flex-direction: row;
 }
 
 .see-project3 button {
@@ -387,25 +300,22 @@ body {
   border-width: 1px;
   margin-bottom: 20px;
 }
+.ancrotag {
+  display: flex;
+  margin-left: -50px;
+}
 
-.ancrotag3 a {
+.ancrotag li {
   font-family: "Poppins", sans-serif;
   color: #6070ff;
   background-color: #ebebff;
   text-decoration: none;
-  margin-top: -30px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
 }
 
 .my-fith-section h1 {
-  width: 327px;
-  margin-top: -30px;
-  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -420,8 +330,6 @@ body {
 }
 
 .my-fith-section p {
-  width: 327px;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -431,64 +339,6 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
-}
-
-.fithcounter {
-  margin-top: -70px;
-  display: flex;
-  align-items: center;
-}
-
-.fithcounter h2 {
-  width: 55px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 16px;
-  color: #344563;
-  order: 0;
-  flex-grow: 0;
-}
-
-.fithcounter h3 {
-  width: 88px;
-  height: 16px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-}
-
-.fithcounter img {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.ancrotag4 {
-  margin-top: -20px;
-  display: flex;
-  flex-direction: row;
-}
-
-.ancrotag4 a {
-  font-family: "Poppins", sans-serif;
-  color: #6070ff;
-  background-color: #ebebff;
-  text-decoration: none;
-  margin-top: -30px;
-  margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 10px;
 }
 
 .see-project4 button {
@@ -509,8 +359,6 @@ body {
 }
 
 .my-sixth-section h1 {
-  width: 327px;
-  height: 150px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -525,8 +373,6 @@ body {
 }
 
 .my-sixth-section h3 {
-  width: 117px;
-  height: 24px;
   font-family: "Poppins", sans-serif;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -541,8 +387,6 @@ body {
 }
 
 .my-sixth-section p {
-  width: 327px;
-  height: 146px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;

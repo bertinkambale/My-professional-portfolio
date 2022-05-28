@@ -124,7 +124,7 @@ body {
 .for-displaying h2 {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -137,7 +137,7 @@ body {
 .for-displaying h3 {
   width: 88px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -160,7 +160,7 @@ body {
 }
 
 .ancrotag a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: #6070ff;
   background-color: #ebebff;
   text-decoration: none;
@@ -174,7 +174,7 @@ body {
 }
 
 .see-project button {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -216,7 +216,7 @@ body {
 .thirdcounter h2 {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -229,7 +229,7 @@ body {
 .thirdcounter h3 {
   width: 88px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -252,7 +252,7 @@ body {
 }
 
 .ancrotag1 a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: #6070ff;
   background-color: #ebebff;
   text-decoration: none;
@@ -266,7 +266,7 @@ body {
 }
 
 .see-project1 button {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -336,7 +336,7 @@ body {
 .Part3 h2 {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -349,7 +349,7 @@ body {
 .Part3 h3 {
   width: 88px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -372,7 +372,7 @@ body {
 }
 
 .see-project3 button {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -389,7 +389,7 @@ body {
 }
 
 .ancrotag3 a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: #6070ff;
   background-color: #ebebff;
   text-decoration: none;
@@ -442,7 +442,7 @@ body {
 .fithcounter h2 {
   width: 55px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -455,7 +455,7 @@ body {
 .fithcounter h3 {
   width: 88px;
   height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -478,7 +478,7 @@ body {
 }
 
 .ancrotag4 a {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: #6070ff;
   background-color: #ebebff;
   text-decoration: none;
@@ -668,7 +668,7 @@ body {
 }
 
 .my-eighth-section h1 {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #ffffff;
   text-align: center;
@@ -676,7 +676,7 @@ body {
 }
 
 .my-eighth-section p {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #ffffff;
   text-align: center;
@@ -710,7 +710,7 @@ form {
 }
 
 .form1 button {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -727,7 +727,7 @@ form {
 }
 
 ::placeholder {
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .last-img {

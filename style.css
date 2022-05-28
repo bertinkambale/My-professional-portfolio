@@ -603,11 +603,6 @@ form {
   font-size: 15px;
 }
 
-.first-bar {
-  display: flex;
-  justify-content: baseline;
-}
-
 .first-bar span {
   padding-top: 30px;
   color: black;

@@ -100,6 +100,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .my-second-section p {
   width: 327px;
   height: 146px;
@@ -113,11 +114,13 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
 .for-displaying {
   margin-top: -70px;
   display: flex;
   align-items: center;
 }
+
 .for-displaying h2 {
   width: 55px;
   height: 16px;
@@ -130,6 +133,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .for-displaying h3 {
   width: 88px;
   height: 16px;
@@ -143,15 +147,18 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .for-displaying img {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .ancrotag {
   margin-top: -20px;
   display: flex;
   flex-direction: row;
 }
+
 .ancrotag a {
   font-family: "Poppins";
   color: #6070ff;
@@ -165,6 +172,7 @@ body {
   padding-bottom: 5px;
   border-radius: 10px;
 }
+
 .see-project button {
   font-family: "Poppins";
   border-radius: 10px;
@@ -198,11 +206,13 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .thirdcounter {
   margin-top: -50px;
   display: flex;
   align-items: center;
 }
+
 .thirdcounter h2 {
   width: 55px;
   height: 16px;
@@ -215,6 +225,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .thirdcounter h3 {
   width: 88px;
   height: 16px;
@@ -228,15 +239,18 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .thirdcounter img {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .ancrotag1 {
   margin-top: -20px;
   display: flex;
   flex-direction: row;
 }
+
 .ancrotag1 a {
   font-family: "Poppins";
   color: #6070ff;
@@ -250,6 +264,7 @@ body {
   padding-bottom: 5px;
   border-radius: 10px;
 }
+
 .see-project1 button {
   font-family: "Poppins";
   border-radius: 10px;
@@ -266,6 +281,7 @@ body {
   border-width: 1px;
   margin-bottom: 20px;
 }
+
 .my-third-section p {
   width: 327px;
   height: 146px;
@@ -279,6 +295,7 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
 .my-fourth-section h1 {
   width: 327px;
   margin-top: -30px;
@@ -295,6 +312,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .my-fourth-section p {
   width: 327px;
   height: 146px;
@@ -308,11 +326,13 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
 .Part3 {
   margin-top: -70px;
   display: flex;
   align-items: center;
 }
+
 .Part3 h2 {
   width: 55px;
   height: 16px;
@@ -325,6 +345,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .Part3 h3 {
   width: 88px;
   height: 16px;
@@ -338,6 +359,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .Part3 img {
   padding-left: 20px;
   padding-right: 20px;
@@ -365,6 +387,7 @@ body {
   border-width: 1px;
   margin-bottom: 20px;
 }
+
 .ancrotag3 a {
   font-family: "Poppins";
   color: #6070ff;
@@ -378,6 +401,7 @@ body {
   padding-bottom: 5px;
   border-radius: 10px;
 }
+
 .my-fith-section h1 {
   width: 327px;
   margin-top: -30px;
@@ -394,6 +418,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .my-fith-section p {
   width: 327px;
   height: 146px;
@@ -407,11 +432,13 @@ body {
   order: 1;
   flex-grow: 0;
 }
+
 .fithcounter {
   margin-top: -70px;
   display: flex;
   align-items: center;
 }
+
 .fithcounter h2 {
   width: 55px;
   height: 16px;
@@ -424,6 +451,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .fithcounter h3 {
   width: 88px;
   height: 16px;
@@ -437,15 +465,18 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .fithcounter img {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .ancrotag4 {
   margin-top: -20px;
   display: flex;
   flex-direction: row;
 }
+
 .ancrotag4 a {
   font-family: "Poppins";
   color: #6070ff;
@@ -459,6 +490,7 @@ body {
   padding-bottom: 5px;
   border-radius: 10px;
 }
+
 .see-project4 button {
   font-family: "Poppins";
   border-radius: 10px;
@@ -491,6 +523,7 @@ body {
   order: 0;
   flex-grow: 0;
 }
+
 .my-sixth-section h3 {
   width: 117px;
   height: 24px;
@@ -530,6 +563,7 @@ body {
 .my-sixth-section li {
   padding-right: 10px;
 }
+
 .my-sixth-section button {
   font-family: "Poppins";
   border-radius: 10px;
@@ -546,16 +580,19 @@ body {
   border-width: 1px;
   margin-bottom: 20px;
 }
+
 .first-bar {
   display: flex;
   justify-content: space-between;
   font-family: "Poppins";
 }
+
 .js {
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .js p {
   font-family: "Poppins";
   font-style: normal;
@@ -567,11 +604,13 @@ body {
   color: #253858;
   padding-left: 10px;
 }
+
 .htmlH {
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .htmlH p {
   font-family: "Poppins";
   font-style: normal;
@@ -583,11 +622,13 @@ body {
   color: #253858;
   padding-left: 10px;
 }
+
 .cssH {
   display: flex;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .cssH p {
   font-family: "Poppins";
   font-style: normal;
@@ -599,6 +640,7 @@ body {
   color: #253858;
   padding-left: 10px;
 }
+
 .frame {
   font-family: "Poppins";
   font-style: normal;
@@ -607,6 +649,7 @@ body {
   line-height: 24px;
   padding-bottom: -20px;
 }
+
 .ski {
   font-family: "Poppins";
   font-style: normal;
@@ -614,6 +657,7 @@ body {
   font-size: 20px;
   line-height: 24px;
 }
+
 .my-eighth-section {
   background: #6070ff;
   border-top-left-radius: 80px;
@@ -622,6 +666,7 @@ body {
   background-repeat: no-repeat;
   width: 100%;
 }
+
 .my-eighth-section h1 {
   font-family: "Poppins";
   font-style: normal;
@@ -629,6 +674,7 @@ body {
   text-align: center;
   padding-top: 115px;
 }
+
 .my-eighth-section p {
   font-family: "Poppins";
   font-style: normal;
@@ -637,10 +683,12 @@ body {
   width: 80%;
   margin: auto;
 }
+
 form {
   width: 80%;
   margin: auto;
 }
+
 .form1 input {
   display: block;
   width: 100%;
@@ -651,6 +699,7 @@ form {
   border: 1px solid white;
   border-radius: 8px;
 }
+
 .form1 textarea {
   display: block;
   width: 100%;
@@ -659,6 +708,7 @@ form {
   height: 100px;
   border-radius: 8px;
 }
+
 .form1 button {
   font-family: "Poppins";
   border-radius: 10px;
@@ -675,9 +725,11 @@ form {
   border-width: 1px;
   margin-bottom: 20px;
 }
+
 ::placeholder {
   font-family: "Poppins";
 }
+
 .last-img {
   display: flex;
   justify-content: center;

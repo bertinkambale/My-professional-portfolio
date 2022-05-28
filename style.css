@@ -492,7 +492,7 @@ body {
 }
 
 .see-project4 button {
-  font-family: "Poppins";
+  font-family: "Poppins" sans-serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -670,7 +670,7 @@ body {
 .my-eighth-section h1 {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   padding-top: 115px;
 }
@@ -678,7 +678,7 @@ body {
 .my-eighth-section p {
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   width: 80%;
   margin: auto;

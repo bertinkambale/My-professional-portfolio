@@ -437,7 +437,7 @@ body {
   padding-bottom: 10px;
 }
 
-.js p {
+.js span {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -455,7 +455,7 @@ body {
   padding-bottom: 10px;
 }
 
-.htmlH p {
+.htmlH span {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -473,7 +473,7 @@ body {
   padding-bottom: 10px;
 }
 
-.cssH p {
+.cssH span {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;

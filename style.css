@@ -580,3 +580,36 @@ form {
   justify-content: center;
   padding-bottom: 10px;
 }
+
+.chevron1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chevron1 span {
+  padding-top: 30px;
+  color: black;
+  font-size: 15px;
+}
+
+.chevron2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chevron2 span {
+  padding-top: 30px;
+  color: black;
+  font-size: 15px;
+}
+
+.first-bar {
+  display: flex;
+  justify-content: baseline;
+}
+
+.first-bar span {
+  padding-top: 30px;
+  color: black;
+  font-size: 15px;
+}

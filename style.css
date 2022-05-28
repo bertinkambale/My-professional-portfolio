@@ -565,7 +565,7 @@ body {
 }
 
 .my-sixth-section button {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -584,7 +584,7 @@ body {
 .first-bar {
   display: flex;
   justify-content: space-between;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 .js {
@@ -594,7 +594,7 @@ body {
 }
 
 .js p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -612,7 +612,7 @@ body {
 }
 
 .htmlH p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -630,7 +630,7 @@ body {
 }
 
 .cssH p {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -642,7 +642,7 @@ body {
 }
 
 .frame {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -651,7 +651,7 @@ body {
 }
 
 .ski {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -668,7 +668,7 @@ body {
 }
 
 .my-eighth-section h1 {
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
   color: #ffffff;
   text-align: center;
@@ -676,7 +676,7 @@ body {
 }
 
 .my-eighth-section p {
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   font-style: normal;
   color: #ffffff;
   text-align: center;
@@ -710,7 +710,7 @@ form {
 }
 
 .form1 button {
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
   border-radius: 10px;
   background-color: white;
   color: #396df2;
@@ -727,7 +727,7 @@ form {
 }
 
 ::placeholder {
-  font-family: "Poppins";
+  font-family: "Poppins", serif;
 }
 
 .last-img {

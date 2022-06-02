@@ -7,7 +7,6 @@
 
 body {
   background: #e5e5e5;
-
   font-family: "Poppins", sans-serif;
 }
 
@@ -393,7 +392,7 @@ header {
   flex-direction: column;
   text-align: center;
   margin-top: 130px;
-  
+
 }
 
 .theSecondContainer h1 {

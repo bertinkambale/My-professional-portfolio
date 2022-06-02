@@ -19,7 +19,8 @@
     <title>My_Portfolio</title>
   </head>
   <body>
-    <section class="my-first-section">
+    <div class="back"></div>
+    <section class="my-first-section container">
       <header class="header">
         <a>My logo</a>
         <nav>
@@ -39,7 +40,7 @@
           </svg>
         </nav>
       </header>
-      <section>
+      <section class="main-header container">
         <h1>
           I’m Bertin <br />Glad to see<br />
           you!
@@ -60,8 +61,8 @@
         </ul>
       </section>
     </section>
-    <main>
-      <section class="my-second-section">
+    <main class="card-section">
+      <section class="my-second-section container">
         <img src="images_for_second_section/photo1.svg" alt="" />
         <h1>Tonic</h1>
         <div class="new-style">
@@ -80,9 +81,11 @@
           <li>css</li>
           <li>javaScript</li>
         </ul>
-        <div class="see-project"><button>See project</button></div>
+        <div class="see-project4">
+          <button>See project</button>
+        </div>
       </section>
-      <section class="my-third-section">
+      <section class="my-second-section container">
         <img src="images_for_third_section/photo3.svg" alt="" />
         <h1>Multi-Post<br />Stories</h1>
         <div class="new-style">
@@ -101,11 +104,11 @@
           <li>css</li>
           <li>javaScript</li>
         </ul>
-        <div class="see-project1">
+        <div class="see-project4">
           <button>See project</button>
         </div>
       </section>
-      <section class="my-fourth-section">
+      <section class="my-second-section container">
         <img src="images_for_fourth_section/photo4.svg" alt="" />
         <h1>Tonic</h1>
         <div class="new-style">
@@ -124,11 +127,11 @@
           <li>css</li>
           <li>javaScript</li>
         </ul>
-        <div class="see-project3">
+        <div class="see-project4">
           <button>See project</button>
         </div>
       </section>
-      <section class="my-fith-section">
+      <section class="my-second-section container">
         <img src="images_for_fith_section/photo5.svg" alt="" />
         <div>
           <h1>Multi-Post<br />Stories</h1>
@@ -153,7 +156,9 @@
           <button>See project</button>
         </div>
       </section>
+      
       <section class="my-sixth-section">
+        <div class="container">
         <section>
           <h1>About <br />Myself</h1>
           <p>
@@ -172,8 +177,11 @@
           </ul>
           <button>Get my resume</button>
         </section>
+      </div>
       </section>
+    
       <section class="my-seventh-section">
+        <div class="container">
         <div class="first-bar">
           <h1>Languages</h1>
           <span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
@@ -206,43 +214,60 @@
           </div>
           <div><img src="images/Separator-Bottom.svg" alt="" /></div>
         </div>
+      </div>
       </section>
-      <section class="my-contact">
-        <h1>Contact me</h1>
-        <p>
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it
-        </p>
-        <form action="https://formspree.io/f/{form_id}" method="post">
-          <ul>
-            <li>
-              <label for="name"></label
-              ><input
-                placeholder="   Enter your name"
-                maxlength="30"
-                type="text"
-                required
-              />
-            </li>
-            <li>
-              <label for="email"></label
-              ><input placeholder="   Enter your email" type="email" />
-            </li>
-            <li>
-              <textarea
-                placeholder="    write your message here"
-                maxlength="500"
-                id="msg"
-                name="user_message"
-                required
-              ></textarea>
-            </li>
-            <li><button class="button" type="submit">Get it touch</button></li>
-          </ul>
+
+      <!-- Contact section-->
+      
+    <div class="main form-main">
+      <div class="background-img"></div>
+       <section class="theSecondContainer container">
+         <h1>Contact me</h1>
+         <p>
+           If you have an application you are interested in developing,
+           a feature that you need built or a project that needs coding.
+            I’d love to help with it
+         </p>
+       </section>
+       <div class="container">
+         <form action="https://formspree.io/f/mgedpajj" method="post" class="myform">
+           <div>
+             <input
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             maxlength="30"
+             placeholder="Please enter your name"
+             required
+             />
+           </div>
+           <div>
+             <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Please enter your Email"
+             required
+             />
+           </div>
+           <div>
+             <textarea
+             id="message"
+             class="input-textarea"
+             name="message"
+             maxlength="500"
+             placeholder="Enter your message here"
+             required></textarea>
+           </div>
+           <div>
+             <button type="submit" id="submit" class="button">Get it touch</button>
+           </div>
         </form>
-        <img src="images/Shape.svg" />
-      </section>
-    </main>
+       </div>
+     </div>
+ <!--Contact me section -->
+    
   </body>
 </html>

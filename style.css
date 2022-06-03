@@ -37,6 +37,7 @@ body {
 header {
   padding: 20px 0;
 }
+
 .my-first-section {
   margin-bottom: 300px;
 }
@@ -392,7 +393,6 @@ header {
   flex-direction: column;
   text-align: center;
   margin-top: 130px;
-
 }
 
 .theSecondContainer h1 {

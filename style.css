@@ -83,7 +83,16 @@ header {
   list-style: none;
 }
 
-/*Second block*/
+.my-contact img {
+  padding-bottom: 10px;
+  padding-left: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+.second-block1 img {
+  padding-left: 20px;
+}
 
 .second-block {
   background-color: white;
@@ -152,10 +161,6 @@ header {
   background-color: white;
 }
 
-.tonic-class {
-  padding-left: 20px;
-}
-
 .tonic-class1 button {
   border-radius: 10px;
   border: 2px solid#bfc2e6;
@@ -198,14 +203,9 @@ header {
   align-items: center;
 }
 
-.second-block1 img {
-  padding-left: 20px;
-}
-
 .style-image {
   width: 480px;
 }
-/*my contcat*/
 
 .background-img {
   position: absolute;
@@ -250,17 +250,20 @@ header {
   line-height: 28px;
 }
 
+.button {
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  padding: 12px, 16px, 12px, 16px;
+  color: #6070ff;
+  border: 1px solid #cfd8dc;
+  margin-left: 110px;
+}
+
 .button:hover {
   background-color: #396df2;
   color: white;
   border: 1px solid white;
-}
-
-.my-contact img {
-  padding-bottom: 10px;
-  padding-left: 350px;
-  display: flex;
-  justify-content: center;
 }
 
 .myform {
@@ -285,16 +288,6 @@ header {
   top: 0;
   border: 1px solid #cfd8dc;
   padding: 15px 38px 15px 16px;
-}
-
-.button {
-  height: 48px;
-  width: 140px;
-  border-radius: 8px;
-  padding: 12px, 16px, 12px, 16px;
-  color: #6070ff;
-  border: 1px solid #cfd8dc;
-  margin-left: 110px;
 }
 
 .my-sixth-section {
@@ -462,12 +455,14 @@ header {
   color: black;
   font-size: 15px;
 }
+
 .display00 {
   font-family: "popins", sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 30px 90px;
 }
+
 .html-css {
   display: flex;
   flex-direction: row;

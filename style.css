@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-bottom: 330px;
 }
 
 .my-first-section a {
@@ -381,6 +382,9 @@ body {
   gap: 30px;
   align-items: center;
   margin-top: 103px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }
 
 .theSecondContainer {
@@ -451,4 +455,8 @@ body {
   background-color: #396df2;
   color: white;
   border: 1px solid white;
+}
+
+.last-img {
+  padding-left: 100px;
 }

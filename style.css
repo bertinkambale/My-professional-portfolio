@@ -1,4 +1,3 @@
-
 @media (min-width: 1049px) {
   body {
     margin: 0;
@@ -31,6 +30,19 @@
     gap: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .logos {
+    animation: rotate 1s linear;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
   .main1 {
@@ -70,12 +82,18 @@
   .Primary-text h1 {
     color: #091e42;
     padding-top: 120px;
+    transition: 0.3s ease-in-out;
   }
+
+  
 
   .Primary-text p {
     color: #344563;
   }
 
+  .Primary-text p:hover {
+    transform: translate(20px);
+  }
   .Primary-text h5 {
     color: #7f8cff;
   }

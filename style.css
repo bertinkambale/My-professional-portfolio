@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -484,5 +485,5 @@ p {
 }
 
 .last-img {
-  padding-left: 100px;
+   padding-left: 100px;
 }

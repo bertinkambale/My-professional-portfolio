@@ -1,15 +1,26 @@
-@media (min-width: 1044px) {
+@media (min-width: 1049px) {
   body {
     margin: 0;
     padding: 0;
+    background-color: #e5e5e5;
+  }
+
+  .cadre {
+    background-image: url(/Images-for-desktop-version/first-image-background.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 140px;
+    border-bottom-left-radius: 130px;
   }
 
   header {
-    background-color: white;
-    width: 80%;
+    width: 70%;
     margin: auto;
     font-family: "Poppins", sans-serif;
     padding-bottom: 70px;
+    border-bottom-left-radius: 90px;
   }
 
   .for-background {
@@ -50,12 +61,9 @@
     display: flex;
   }
 
-  .width-of-items {
-    width: 90%;
-    margin: auto;
-    background-image: url(/Images-for-desktop-version/first-image-background.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+  .Primary-text {
+    width: 70%;
+    padding-left: 60px;
   }
 
   .Primary-text h1 {
@@ -69,6 +77,10 @@
 
   .Primary-text h5 {
     color: #7f8cff;
+  }
+
+  .Primary-text ul {
+    margin-left: -20px;
   }
 
   .icons1 {
@@ -92,7 +104,7 @@
   }
 
   .second-block1 img {
-    padding-left: 20px;
+    padding-left:20px;
   }
 
   .second-block {
@@ -115,21 +127,28 @@
 
   .tonic-class h1 {
     color: #091e42;
+    margin-top: -70px;
   }
 
   .canopy-class {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
   }
 
   .canopy-class h2 {
     color: #344563;
+    margin-right: -10px;
   }
 
   .canopy-class h3 {
     color: #6b778c;
+    padding-left: 10px;
+    margin-right: -10px;
   }
 
+  .space1{
+    margin-left: 15px;
+  }
   .tonic-class p {
     color: #344563;
   }
@@ -209,16 +228,14 @@
   }
 
   .background-img {
-    position: absolute;
-    width: 100%;
-    height: 900px;
+    width:100%;
     background-color: #6070ff;
-    background-image: url("/images/contact-form-shapes-mobile.svg");
+    background-image: url("/Images-for-desktop-version/contact-form-Desktop-background-shapes.svg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size:100%;
     border-top-left-radius: 80px;
-    background-position: right;
-    z-index: -999;
+    margin-top: -149px;
+    padding-bottom: 150px;
   }
 
   .form-main {
@@ -227,19 +244,29 @@
     gap: 30px;
     align-items: center;
     padding-top: 150px;
+
+  }
+
+  .container h1{
+    margin-top: -30px;
+  }
+
+  .container ul{
+    margin-left: -35px;
   }
 
   .theSecondContainer-container {
     display: flex;
     flex-direction: column;
     text-align: center;
+    font-family: "popins",sans-serif;
   }
 
   .theSecondContainer-container h1 {
     font-size: 40px;
     font-weight: 700;
     color: #ffff;
-    padding-top: 130px;
+    padding-top:130px;
   }
 
   .theSecondContainer-container p {
@@ -360,12 +387,18 @@
     display: flex;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
+
+  }
+
+  .first-bar h4{
+    color: #344563;
   }
 
   .js {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #344563;
   }
 
   .js span {
@@ -384,10 +417,17 @@
     padding-right: 20px;
   }
 
+  .html-css {
+    display: flex;
+    flex-direction:row ;
+    gap: 10px;
+  }
+
   .htmlH {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #344563;
   }
 
   .htmlH span {
@@ -435,17 +475,19 @@
   }
 
   .chevron1 {
+    color: #344563;
     display: flex;
     justify-content: space-between;
   }
 
   .chevron1 span {
     padding-top: 30px;
-    color: black;
+    color: #344563;
     font-size: 15px;
   }
 
   .chevron2 {
+    color: #344563;
     display: flex;
     justify-content: space-between;
   }
@@ -463,15 +505,17 @@
   }
 
   .display00 {
+    background-color: white;
     font-family: "popins", sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 30px 90px;
+    padding: 120px 60px;
+    border-top-right-radius: 90px;
   }
 
-  .html-css {
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
+  .display-forms{
+    padding-left: 450px;
   }
-}
+  
+  }
+

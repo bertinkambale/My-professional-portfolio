@@ -1,5 +1,5 @@
 # My-professional-portfolio
-this project will diaplay my portfolio
+Deployment of my website
 ## Built With
 - html
 - css

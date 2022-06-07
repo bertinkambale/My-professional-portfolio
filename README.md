@@ -1,5 +1,5 @@
 # My-professional-portfolio
-this project will be deployed on the internet
+an accessibility test was performed on the website, and corrections were made to meet the required standard.
 ## Built With
 - html
 - css

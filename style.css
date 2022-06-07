@@ -173,7 +173,7 @@ body {
 }
 
 .ancrotag li {
-  color: #6070ff;
+  color: #3e50f0;
   background-color: #ebebff;
   text-decoration: none;
   border-radius: 5px;
@@ -447,7 +447,7 @@ body {
   width: 140px;
   border-radius: 8px;
   padding: 12px, 16px, 12px, 16px;
-  color: #6070ff;
+  color: #2e42f8;
   border: 1px solid #cfd8dc;
 }
 /* stylelint-disable-next-line rule-empty-line-before */

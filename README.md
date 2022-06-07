@@ -1,34 +1,72 @@
-# My-professional-portfolio
-an accessibility test was performed on the website, and corrections were made to meet the required standard.
+# Bertin's Portfolio
+## Description
+> This is my portfolio that describes me and what I can do like build products for the WEB, features, and websites look through some of my work and experience! If you like what you see and have a project you need to be coded, don’t hesitate to contact me.
 ## Built With
-- html
-- css
-## Life Demo
--https://bertinkambale.github.io/My-professional-portfolio/
-## Getting Started
-To get a local copy up and running follow these simple example steps.
-step1:copy the link to the repo on github
-step2:run `git clone "link"`
-### Prerequisites
-1. have vscode installed(or any other editer)
-2. have chrome installed (or any other browser)
-### Usage
-to use this project double clik on index.html
-## Authors
-:buste_silhouette: **Author1**
-- GitHub:[@bertin-kambale]https://github.com/bertinkambale
+- HTML
+- CSS
+## Live Demo
 
-## :poignée_de_main: Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
+[Live Demo Link]https://github.com/bertinkambale/My-professional-portfolio
+
+## Get Started
+
+To get the content of this project locally you need to run the following commands in your terminal.
+
+### Prerequisites
+- IDE(code editor) like: **Vscode**, **Sublime**, etc. 
+- [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
+
+### Setup
+1. Download the **Zip** file or clone the repo with:
+```bash
+git clone https://github.com/tresorsawasawa/MyPortfolio.git
+```
+3. To access cloned directory run:
+```bash
+cd MyPortfolio
+```
+3. Open it with the live server
+
+### Install
+> To install linters and other project's dependencies run:
+```bash
+npm install
+```
+## Run Test for Linters
+
+For tracking linter errors locally you need to follow these steps:
+
+1. For tracking linter errors in HTML files run:
+```bash 
+npx hint .
+```
+
+2. For tracking linter errors in CSS or SASS files run:
+
+```bash
+npx stylelint "\*_/_.{css,scss}"
+```
+
+3. For tracking linter errors in JavaScript files run:
+
+```bash
+npx eslint .
+```
+
+## Authors
+
+👤 **Bertin kambale**
+
+- GitHub: [@bertinkambale]https://github.com/bertinkambale
+  
 ## Show your support
-Give a :étoile:️ if you like this project!
+
+Give a ⭐️ if you like this project!
+
 ## Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-## :note: License
+
+- Thank You [Microverse](www.microverse.org) team that help me with the template of this project.
+- Thanks to everyone who will get time to check this code and suggest any [issue]https://github.com/bertinkambale/My-professional-portfolio to improve the page.
+
+## 📝 License
 This project is [MIT](./MIT.md) licensed.
-GitHubGitHub
-githubhandle - Overview
-GitHub is where githubhandle builds software.
